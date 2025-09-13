@@ -10,3 +10,5 @@ JOIN DimDate d     ON f.DateKey   = d.DateKey
 JOIN DimProduct p  ON f.ProductKey = p.ProductKey
 GROUP BY d.Year, d.MonthName, d.Month, p.Category
 ORDER BY d.Year, d.Month, p.Category;
+
+.quit
