@@ -1,5 +1,6 @@
 .headers on
 .mode column
+
 SELECT
   d.Year,
   d.MonthName,
