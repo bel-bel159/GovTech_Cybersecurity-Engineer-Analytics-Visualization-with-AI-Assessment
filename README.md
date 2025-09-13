@@ -3,6 +3,7 @@
 ## Setup & How to Run
 
 ### Setup
+Ensure that you have the following installed:
 * **Python 3.10+**
 * **pandas**
 * **SQLite 3 CLI**
