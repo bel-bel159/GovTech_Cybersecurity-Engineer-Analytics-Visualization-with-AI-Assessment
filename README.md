@@ -59,9 +59,8 @@ I have created 2 dimension tables and 1 fact table, modelled as a simple star sc
     | **Day**       | INTEGER                        | Day of month              |
     | **MonthName** | TEXT                           | Full month name           |
 
-**Relationships**
+**Relationships**  
 Fact Sales is the central fact table where it links to DimProduct table through the ProductKey FK, and to DimDate through the DateKey FK, forming a simple star schema.
-
 Surrogate Keys, ProductKey and DateKey enable joins between tables even if the business identifiers changed.
 
 
@@ -89,6 +88,7 @@ ORDER BY d.Year, d.Month, p.Category;
     * Filter and slice quickly by product category, month or individual product from the DimProduct and DimDate tables without having to scan through raw dataset.
     * Group and sum the fact table based on its FK columns to produce Key Performance Indicator (KPI) with minimal computation.
     * Join the fact table to its dimension table to create new visualization without needing to redesign the schema.
+
 
 * What are three key metrics or visualizations you would propose for this sales dashboard? Explain why each is important for understanding sales performance.
 
