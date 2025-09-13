@@ -92,11 +92,11 @@ ORDER BY d.Year, d.Month, p.Category;
 
 * What are three key metrics or visualizations you would propose for this sales dashboard? Explain why each is important for understanding sales performance.
 
-    * Monthly Revenue by Category
+    * **Monthly Revenue by Category**  
         Even though this is suggested for the SQL query, it is still a good metric as it shows which category has the highest revenue and the trend of popularity of the category over time.
 
-    * Top products by Total Quantity Sold 
+    * **Top products by Total Quantity Sold**  
         This is to identify which individual product has the highest quantity sold regardless of price which shows the product popularity and can help with promotional focus.
 
-    * Average Order Value Over Time 
+    * **Average Order Value Over Time**  
         This can indicate customer spending behaviour where high average order value means that customers are making big purchases per order over a period and low average order value means that customers are making small purchases per order. This is a good metric as it can show trends over different periods, for example, christmas period tend to have high average order as customers would want to purchase presents.
